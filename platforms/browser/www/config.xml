@@ -8,7 +8,7 @@
         Eastern Shore Regional GIS Cooperative
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="http://apps.esrgc.org/whatsup" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
