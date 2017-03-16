@@ -1,0 +1,23 @@
+{
+  "name": "unitesalisbury",
+  "version": "1.0.0",
+  "description": "--- first time only ```npm install -g cordova``` or ```sudo npm install -g cordova``` #### Setup process from CLI {} = optional args",
+  "main": "index.js",
+  "dependencies": {
+    "cordova-plugin-inappbrowser": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdflint/uniteSalisbury--Phonegap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdflint/uniteSalisbury--Phonegap/issues"
+  },
+  "homepage": "https://github.com/cdflint/uniteSalisbury--Phonegap#readme"
+}
