@@ -25,3 +25,35 @@ or
 cordova build ios
 cordova build android
 ```
+
+### for InAppBrowser
+```
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git
+```
+
+### setup in config.xml's
+./config.xml
+```xml
+<plugin name="cordova-plugin-inappbrowser" />
+```
+./platforms/android/res/xml/config.xml
+```xml
+<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+</feature>
+```
+./platforms/ios/UniteSalisbury/config.xml
+```xml
+<feature name="InAppBrowser">
+    <param name="ios-package" value="CDVInAppBrowser" />
+</feature>
+```
+
+check setup with
+```
+cordova prepare
+```
+
+for plaforms iOS and Android set target="_blank"
+for browser set target="_self" so a new window event is not triggered
+
