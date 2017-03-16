@@ -15,12 +15,15 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser"/>
+    </feature>
     <name>UniteSalisbury</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Find local events in the Salisbury Area.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="esrgc@salisbury.edu" href="http://www.esrgc.org">
+        Eastern Shore Regional GIS Cooperative
     </author>
     <content src="index.html" />
     <access origin="*" />
