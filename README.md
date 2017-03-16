@@ -57,3 +57,10 @@ cordova prepare
 for plaforms iOS and Android set target="_blank"
 for browser set target="_self" so a new window event is not triggered
 
+### uri Whitelisting
+./config.xml
+```xml
+<access origin="http://apps.esrgc.org/whatsup" />
+```
+
+will allow access to /whatsup*
