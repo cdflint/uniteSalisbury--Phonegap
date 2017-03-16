@@ -2,14 +2,14 @@
 <widget id="org.esrgc.apps" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>UniteSalisbury</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Find events around town.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="esrgc@salisbury.edu" href="http://www.esrgc.org">
+        Eastern Shore Regional GIS Cooperative
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="InAppBrowser" />
+    <plugin name="cordova-plugin-InAppBrowser" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
