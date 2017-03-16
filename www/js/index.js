@@ -33,9 +33,9 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-        window.open = cordova.InAppBrowser.open;
+        // window.open = cordova.InAppBrowser.open;
         this.receivedEvent('deviceready');
-        var ref = window.open(site, '_blank', 'location=yes');
+        var ref = window.open(site, '_self', 'location=yes');
         ref.addEventListener('loadstart', function() { console.log('start: ' + event.url); });
         ref.addEventListener('loadstop', function() { console.log('stop: ' + event.url); });
         ref.addEventListener('exit', function() { console.log(event.type); });
