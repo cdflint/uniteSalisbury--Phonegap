@@ -20,7 +20,7 @@
         Provisioning Profile for production
 
 - [ ] Provisioning Profile for production/distribution
-- [ ] Build Settings
+- [X] Build Settings
 
         Need to update URL from whatsup to uniteSalisbury
 
@@ -75,7 +75,7 @@
 [Android deployment checklist](https://developer.android.com/distribute/best-practices/launch/launch-checklist.html)
 
 #### Prerequisites
-- [ ] Build a release-ready APK
+- [X] Build a release-ready APK
 
         Need to update target URL from whatsup to uniteSalisbury
 

@@ -60,7 +60,7 @@ for browser set target="_self" so a new window event is not triggered
 ### uri Whitelisting
 ./config.xml
 ```xml
-<access origin="http://apps.esrgc.org/whatsup" />
+<access origin="http://apps.esrgc.org/uniteSalisbury" />
 ```
 
-will allow access to /whatsup*
+will allow access to /uniteSalisbury*
