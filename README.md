@@ -1,5 +1,9 @@
 ## PhoneGap wrapper for node.js app
 ---
+Download qr-code:
+![alt text](https://github.com/cdflint/uniteSalisbury--Phonegap/blob/master/platforms/Download_Link_Dev.png "Download link")
+
+---
 first time only
 ```npm install -g cordova```
 or
