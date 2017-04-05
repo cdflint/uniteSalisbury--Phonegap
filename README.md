@@ -64,35 +64,3 @@ for browser set target="_self" so a new window event is not triggered
 ```
 
 will allow access to /whatsup*
-
-##
----
-## todo's for Apple deployment
-### on the Mac
-1. Install Xcode if not already     xcode-select --install
-2. Deployment Tools                 npm i -g ios-deploy
-3. 
-
-### Prerequisites
-1. AppID
-2. Distribution Certificate
-3. Provisioning Profile
-4. Build Settings
-5. Deployment Target
-
-### Assets
-1. Icons
-2. Screenshots
-3. Metadata
-
-### Submission
-1. Basic Info
-2. Price & Availability
-3. Metadata
-4. Ready to Upload Binary
-
-### Upload to the Store
-1. must use an apple device to create the archive for upload
-
-### Wait...
-1. Waiting for review process to complete
