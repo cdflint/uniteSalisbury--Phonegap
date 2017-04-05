@@ -18,7 +18,7 @@
  */
 // ---------------------------------------------------------
 // set target for phonegap app
-var site = 'http://apps.esrgc.org/whatsup';
+var site = 'http://apps.esrgc.org/uniteSalisbury';
 // ---------------------------------------------------------
 
 
@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         // window.open = cordova.InAppBrowser.open;
         this.receivedEvent('deviceready');
-        var ref = window.open(site, '_blank', 'location=no');
+        var ref = window.open(site, '_self', 'location=no');
         ref.addEventListener('loadstart', function() { console.log('start: ' + event.url); });
         ref.addEventListener('loadstop', function() { console.log('stop: ' + event.url); });
         ref.addEventListener('exit', function() { console.log(event.type); });

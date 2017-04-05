@@ -18,7 +18,7 @@
  */
 // ---------------------------------------------------------
 // set target for phonegap app
-var site = 'http://apps.esrgc.org/whatsup';
+var site = 'http://apps.esrgc.org/uniteSalisbury';
 // ---------------------------------------------------------
 
 
