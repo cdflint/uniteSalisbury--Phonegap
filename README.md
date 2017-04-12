@@ -77,6 +77,15 @@ for browser set target="_self" so a new window event is not triggered
 
 ```xml
 <access origin="http://apps.esrgc.org/uniteSalisbury" />
+<access origin="http://*.tiles.mapbox.com/*"
 ```
 
 will allow access to /uniteSalisbury*
+and mapbox tiles for mapbox
+
+On mac modify app-name.info.plist
+add the following to the record for mapbox
+```xml
+<key>NSTemporaryThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+<true/>
+```
