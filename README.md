@@ -83,6 +83,8 @@ for browser set target="_self" so a new window event is not triggered
 will allow access to /uniteSalisbury*
 and mapbox tiles for mapbox
 
+### Apple iOS App Transport Security (ATS) solution
+
 On mac modify app-name.info.plist
 add the following to the record for mapbox
 ```xml
