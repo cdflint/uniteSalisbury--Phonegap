@@ -60,3 +60,4 @@ routes/.event.js.swo
 *.jks
 *.keystore
 *.apk
+*.tar.bz2
