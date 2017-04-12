@@ -16,12 +16,15 @@
     </author>
     <content src="index.html" />
     <access origin="http://apps.esrgc.org/uniteSalisbury" />
+    <access origin="http://*.tiles.mapbox.com/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="data:*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon src="icon.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

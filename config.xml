@@ -11,12 +11,16 @@
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-inappbrowser" />
     <access origin="http://apps.esrgc.org/uniteSalisbury" />
+    <access origin="http://*.tiles.mapbox.com/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="data:*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <!-- default icon config -->
+    <icon src="icon.png" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
