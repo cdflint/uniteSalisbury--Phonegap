@@ -1,31 +1,58 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.esrgc.apps" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>UniteSalisbury</name>
-    <description>
-        Find events around town.
-    </description>
-    <author email="esrgc@salisbury.edu" href="http://www.esrgc.org">
-        Eastern Shore Regional GIS Cooperative
-    </author>
-    <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="cordova-plugin-inappbrowser" />
-    <access origin="http://apps.esrgc.org/uniteSalisbury" />
-    <access origin="http://*.tiles.mapbox.com/*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="data:*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <!-- default icon config -->
-    <icon src="icon.png" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
+  <name>UniteSalisbury</name>
+  <description>
+    Find events around town.
+  </description>
+  <author email="esrgc@salisbury.edu" href="http://www.esrgc.org">
+    Eastern Shore Regional GIS Cooperative
+  </author>
+  <content src="index.html"/>
+  <plugin name="cordova-plugin-whitelist" spec="1"/>
+  <plugin name="cordova-plugin-inappbrowser"/>
+  <access origin="http://apps.esrgc.org/uniteSalisbury"/>
+  <access origin="http://*.tiles.mapbox.com/*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="data:*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <!-- default icon config -->
+  <icon src="icon.png"/>
+  <platform name="android">
+    <!--
+      ldpi    : 36x36 px
+      mdpi    : 48x48 px
+      hdpi    : 72x72 px
+      xhdpi   : 96x96 px
+      xxhdpi  : 144x144 px
+      xxxhdpi : 192x192 px
+    -->
+    <icon src="res/android/ldpi.png" density="ldpi"/>
+    <icon src="res/android/mdpi.png" density="mdpi"/>
+    <icon src="res/android/hdpi.png" density="hdpi"/>
+    <icon src="res/android/xhdpi.png" density="xhdpi"/>
+    <icon src="res/android/xxhdpi.png" density="xxhdpi"/>
+    <icon src="res/android/xxxhdpi.png" density="xxxhdpi"/>
+    <allow-intent href="market:*"/>
+  </platform>
+  <platform name="ios">
+    <!-- iOS 8.0+ -->
+    <!-- iPhone 6 Plus  -->
+    <icon src="res/ios/icon-60@3x.png" width="180" height="180"/>
+    <!-- iOS 7.0+ -->
+    <!-- iPhone / iPod Touch  -->
+    <icon src="res/ios/icon-60.png" width="60" height="60"/>
+    <icon src="res/ios/icon-60@2x.png" width="120" height="120"/>
+    <!-- iPad -->
+    <icon src="res/ios/icon-76.png" width="76" height="76"/>
+    <icon src="res/ios/icon-76@2x.png" width="152" height="152"/>
+    <!-- Spotlight Icon -->
+    <icon src="res/ios/icon-40.png" width="40" height="40"/>
+    <icon src="res/ios/icon-40@2x.png" width="80" height="80"/>
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+  </platform>
 </widget>

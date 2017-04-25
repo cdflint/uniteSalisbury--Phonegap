@@ -62,6 +62,8 @@
           <true/>
           <key>NSExceptionAllowsInsecureHTTPLoads</key>
           <true/>
+          <key>NSTemporaryThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
         </dict>
       </dict>
     </dict>
