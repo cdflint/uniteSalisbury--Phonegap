@@ -9,11 +9,11 @@
     </feature>
     <name>UniteSalisbury</name>
     <description>
-        Find events around town.
-    </description>
+    Find events around town.
+  </description>
     <author email="esrgc@salisbury.edu" href="http://www.esrgc.org">
-        Eastern Shore Regional GIS Cooperative
-    </author>
+    Eastern Shore Regional GIS Cooperative
+  </author>
     <content src="index.html" />
     <access origin="http://apps.esrgc.org/uniteSalisbury" />
     <access origin="http://*.tiles.mapbox.com/*" />
@@ -25,6 +25,12 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <icon src="icon.png" />
+    <icon density="ldpi" src="assets/res/android/ldpi/ic_launcher.png" />
+    <icon density="mdpi" src="assets/res/android/mdpi/ic_launcher.png" />
+    <icon density="hdpi" src="assets/res/android/hdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="assets/res/android/xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="assets/res/android/xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" src="assets/res/android/xxxhdpi/ic_launcher.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

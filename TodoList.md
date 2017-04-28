@@ -1,26 +1,36 @@
 #Todo List
 ---
 
+for transmission back and forth to mac
+```
+tar --exclude='node_modules/*' --exclude='*.bz2' --exclude='deploy/*' -cvjf backup-v1.1.6.tar.bz2 .
+```
+
 ## todo's for Apple deployment
 
 [Apple deployment checklist `human-readable`](https://code.tutsplus.com/tutorials/how-to-submit-an-ios-app-to-the-app-store--mobile-16812)
 
 #### on the Mac
 - [x] Install Xcode if not already     xcode-select --install
+
 - [x] Deployment Tools                 npm i -g ios-deploy
 
 #### Prerequisites
 - [x] AppID
+
 - [x] Distribution Certificate
+
 - [x] Provisioning Profile for development
+
 - [ ] Test devices
 
-        Need to connect to the Mac via USB 
+        Need to connect to the Mac via USB
         and allow those devices to be added to the development
         Provisioning Profile for production
 
 - [ ] Provisioning Profile for production/distribution
-- [X] Build Settings
+
+- [x] Build Settings
 
         Need to update URL from whatsup to uniteSalisbury
 
@@ -29,6 +39,8 @@
 
 #### Assets
 - [ ] Icons
+
+    `Note: may include alpha channel should not have transparent portion`
 
         Required
 
@@ -75,13 +87,13 @@
 [Android deployment checklist](https://developer.android.com/distribute/best-practices/launch/launch-checklist.html)
 
 #### Prerequisites
-- [X] Build a release-ready APK
+- [x] Build a release-ready APK
 
         Need to update target URL from whatsup to uniteSalisbury
 
 #### Assets
 - [ ] Plan for app's Play store listing (Metadata)
-    
+
         Icon
         Feature image
         Screenshots
@@ -100,4 +112,3 @@
 #### Production
 - [ ] Determine app's content rating
 - [ ] Final checks and publishing
-
