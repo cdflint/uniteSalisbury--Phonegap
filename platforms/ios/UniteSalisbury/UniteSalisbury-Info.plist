@@ -49,6 +49,8 @@
     <true/>
     <key>NSAppTransportSecurity</key>
     <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
       <key>NSExceptionDomains</key>
       <dict>
         <key>apps.esrgc.org</key>
@@ -56,6 +58,7 @@
           <key>NSExceptionAllowsInsecureHTTPLoads</key>
           <true/>
         </dict>
+
         <key>tiles.mapbox.com/*</key>
         <dict>
           <key>NSIncludesSubdomains</key>
@@ -65,6 +68,9 @@
           <key>NSTemporaryThirdPartyExceptionAllowsInsecureHTTPLoads</key>
           <true/>
         </dict>
+
+
+
       </dict>
     </dict>
   </dict>
