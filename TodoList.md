@@ -3,7 +3,7 @@
 
 for transmission back and forth to mac
 ```
-tar --exclude='node_modules/*' --exclude='*.bz2' --exclude='deploy/*' -cvjf backup-v1.1.6.tar.bz2 .
+tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2 .
 ```
 
 ## todo's for Apple deployment
@@ -30,16 +30,17 @@ tar --exclude='node_modules/*' --exclude='*.bz2' --exclude='deploy/*' -cvjf back
 
 - [ ] Provisioning Profile for production/distribution
 
-- [x] Build Settings
+- [ ] Build Settings
 
-        Need to update URL from whatsup to uniteSalisbury
-        [Need to properly define ATS exceptions for mapbox ](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33)
+    - [x] Need to update URL from whatsup to uniteSalisbury
+
+    - [ ] [Need to properly define ATS exceptions for mapbox ](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33)
 
 - [x] Deployment Target
 
 
 #### Assets
-- [ ] Icons
+- [x] Icons
 
     `Note: may include alpha channel should not have transparent portion`
 
@@ -72,6 +73,11 @@ tar --exclude='node_modules/*' --exclude='*.bz2' --exclude='deploy/*' -cvjf back
 
 #### Submission
 - [ ] Basic Info
+  - [x] Explain ATS exceptions
+
+        The servers that were given exceptions are not directly managed by the development
+        team.  The production server apps.esrgc.org is managed by Salisbury Universities
+        IT staff.  The mapbox tiles server is a third party server
 - [ ] Price & Availability
 - [ ] Metadata
 - [ ] Ready to Upload Binary
@@ -90,16 +96,17 @@ tar --exclude='node_modules/*' --exclude='*.bz2' --exclude='deploy/*' -cvjf back
 #### Prerequisites
 - [x] Build a release-ready APK
 
-        Need to update target URL from whatsup to uniteSalisbury
+  - [x] Need to update target URL from whatsup to uniteSalisbury
+  - [x] Test on bluestacks emulator
+  - [x] Test on live device
 
 #### Assets
 - [ ] Plan for app's Play store listing (Metadata)
-
-        Icon
-        Feature image
-        Screenshots
-        Description
-        Keywords
+  - [x] Icon
+  - [ ] Feature image
+  - [ ] Screenshots
+  - [ ] Description
+  - [ ] Keywords
 
 #### Submission
 - [ ] Upload APK to the alpha or beta channel
