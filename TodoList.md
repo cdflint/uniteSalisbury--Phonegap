@@ -33,6 +33,7 @@ tar --exclude='node_modules/*' --exclude='*.bz2' --exclude='deploy/*' -cvjf back
 - [x] Build Settings
 
         Need to update URL from whatsup to uniteSalisbury
+        [Need to properly define ATS exceptions for mapbox ](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33)
 
 - [x] Deployment Target
 

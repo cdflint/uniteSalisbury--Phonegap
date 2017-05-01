@@ -49,27 +49,53 @@
     <true/>
     <key>NSAppTransportSecurity</key>
     <dict>
-      <key>NSAllowsArbitraryLoads</key>
+      <!-- Needed to allow content from mapbox while testing in development -->
+      <!-- <key>NSAllowsArbitraryLoads</key>
+      <true/> -->
+      <key>NSAllowsArbitraryLoadsInWebContent</key>
       <true/>
+
+      <!-- ATS exceptions -->
       <key>NSExceptionDomains</key>
       <dict>
+
+        <!-- For in app browser to view website -->
         <key>apps.esrgc.org</key>
         <dict>
           <key>NSExceptionAllowsInsecureHTTPLoads</key>
           <true/>
         </dict>
 
-        <key>tiles.mapbox.com/*</key>
+        <!-- To populate map with mapbox tiles for speed -->
+        <key>a.tiles.mapbox.com/*</key>
         <dict>
+          <!-- <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/> -->
+          <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
           <key>NSIncludesSubdomains</key>
-          <true/>
-          <key>NSExceptionAllowsInsecureHTTPLoads</key>
-          <true/>
-          <key>NSTemporaryThirdPartyExceptionAllowsInsecureHTTPLoads</key>
           <true/>
         </dict>
 
+        <key>b.tiles.mapbox.com/*</key>
+        <dict>
+          <!-- <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/> -->
+          <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
 
+        <key>c.tiles.mapbox.com/*</key>
+        <dict>
+          <!-- <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/> -->
+          <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
 
       </dict>
     </dict>
