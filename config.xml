@@ -11,7 +11,7 @@
   <plugin name="cordova-plugin-whitelist" spec="1"/>
   <plugin name="cordova-plugin-inappbrowser"/>
   <access origin="http://apps.esrgc.org/uniteSalisbury"/>
-  <access origin="http://*.tiles.mapbox.com/*"/>
+  <access origin="http://*.tiles.mapbox.com/*" allows-arbitrary-loads-in-web-content='true'/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="data:*"/>
