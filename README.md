@@ -88,6 +88,6 @@ and mapbox tiles for mapbox
 On mac modify app-name.info.plist
 add the following to the record for mapbox
 ```xml
-<key>NSTemporaryThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
 <true/>
 ```
