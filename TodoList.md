@@ -10,6 +10,8 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
 [Apple deployment checklist `human-readable`](https://code.tutsplus.com/tutorials/how-to-submit-an-ios-app-to-the-app-store--mobile-16812)
 
+[Apple App Store Review Guidelines `are you ready?`](https://developer.apple.com/app-store/review/guidelines/)
+
 #### on the Mac
 - [x] Install Xcode if not already     xcode-select --install
 
@@ -18,7 +20,11 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 #### Prerequisites
 - [x] AppID
 
-- [x] Distribution Certificate
+- [ ] Distribution Certificate
+
+    - [x] Development Certificate
+
+    - [ ] Production Certificate
 
 - [x] Provisioning Profile for development
 
@@ -28,13 +34,17 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         and allow those devices to be added to the development
         Provisioning Profile for production
 
+        Demo account info for Apple review testers
+        UserName: xxxxxx
+        password: xxxxxx
+
 - [ ] Provisioning Profile for production/distribution
 
-- [ ] Build Settings
+- [x] Build Settings
 
     - [x] Need to update URL from whatsup to uniteSalisbury
 
-    - [ ] [Need to properly define ATS exceptions for mapbox ](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33)
+    - [x] [Need to properly define ATS exceptions for mapbox ](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33)
 
 - [x] Deployment Target
 
