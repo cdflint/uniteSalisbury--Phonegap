@@ -77,7 +77,9 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
         The servers that were given exceptions are not directly managed by the development
         team.  The production server apps.esrgc.org is managed by Salisbury Universities
-        IT staff.  The mapbox tiles server is a third party server
+        IT staff.  The mapbox tiles server is a third party server that we have no control over.
+        Hopefully the https requests modification works...!!!
+
 - [ ] Price & Availability
 - [ ] Metadata
 - [ ] Ready to Upload Binary
