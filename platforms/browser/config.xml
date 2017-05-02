@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.esrgc.apps" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>UniteSalisbury</name>
+    <description>
+    Find events around town.
+  </description>
+    <author email="esrgc@salisbury.edu" href="http://www.esrgc.org">
+    Eastern Shore Regional GIS Cooperative
+  </author>
+    <content src="index.html" />
+    <access origin="http://apps.esrgc.org/uniteSalisbury" />
+    <access origin="http://*.tiles.mapbox.com/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="data:*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="icon.png" />
+</widget>
