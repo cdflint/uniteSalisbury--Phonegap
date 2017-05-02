@@ -1,10 +1,10 @@
 #Todo List
 ---
 
-for transmission back and forth to mac
-```
+<!-- for transmission back and forth to mac
+
 tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2 .
-```
+ -->
 
 ## todo's for Apple deployment
 
@@ -33,10 +33,6 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         Need to connect to the Mac via USB
         and allow those devices to be added to the development
         Provisioning Profile for production
-
-        Demo account info for Apple review testers
-        UserName: xxxxxx
-        password: xxxxxx
 
 - [x] Provisioning Profile for production/distribution
 
@@ -79,18 +75,18 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
               v1.1.9
         3. Primary (and an optional secondary) [category](https://developer.apple.com/app-store/categories)
               Primary Category: Social Networking
-              Secondary Category:
+              Secondary Category: ??????
         4. Concise description
-
-        5. Keywords for search in app store (max 100 characters comma separated)
-
+              ???????
+        5. Keywords for search in app store (max 100 characters comma separated spaces count...)
+              ex. (words,like,ones,that,searches,will,direct,to,Unite,Salisbury)
         6. Support URL (so people that need help with application can contact us...)
               ESRGC.org or github repo ?
         7. Since there is a login function we need to provide Apple with a test/demo account for review process (so they dont have to create an accout for the app... they are lazy)
               UserName: xxxxxx
               password: xxxxxx
 
-#### Submission
+#### Submission [submit app to app review](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SubmittingTheApp.html)
 - [ ] Basic Info
 
   - [ ] Explain ATS exceptions
