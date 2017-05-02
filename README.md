@@ -15,8 +15,8 @@ or
 #### Setup process from CLI
 {} = optional args
 
+Params: cordova create app-name {reverse.domain} {apps display text}
 ```
-cordova create app-name {reverse.domain} {apps display text}
 cordova create uniteSalisbury org/whatsup/index.esrgc.apps UniteSalisbury
 
 cordova platform add ios
@@ -69,8 +69,7 @@ check setup with
 cordova prepare
 ```
 
-for plaforms iOS and Android set target='_blank'
-for browser set target="_self" so a new window event is not triggered
+for plaforms iOS and Android set target="_blank"
 
 ### uri Whitelisting
 ./config.xml
@@ -83,11 +82,13 @@ for browser set target="_self" so a new window event is not triggered
 will allow access to /uniteSalisbury*
 and mapbox tiles for mapbox
 
-### Apple iOS App Transport Security (ATS) solution
 
-On mac modify app-name.info.plist
-add the following to the record for mapbox
-```xml
-<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
-<true/>
-```
+### Apple iOS App Transport Security (ATS) solution
+###### update mapbox to https and no special ATS exceptions needed
+
+        On mac modify app-name.info.plist
+        add the following to the record for mapbox
+        ```xml
+        <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+        <true/>
+        ```
