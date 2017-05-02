@@ -68,12 +68,13 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         These screenshots will be used in the app store
 
 - [ ] Metadata [apple's guide to metadata](https://developer.apple.com/app-store/product-page/)
+  , [category outline](https://developer.apple.com/app-store/categories)
 
         1. Applications name
               UniteSalisbury
         2. Version number
               v1.1.9
-        3. Primary (and an optional secondary) [category](https://developer.apple.com/app-store/categories)
+        3. Primary (and an optional secondary) Category
               Primary Category: Social Networking
               Secondary Category: ??????
         4. Concise description
