@@ -67,6 +67,8 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         Separate screenshots for iPhone/iPod Touch & iPad/iPad mini
         These screenshots will be used in the app store
 
+        should consider adding temporary events/data to map for screenshots
+
 - [ ] Metadata [apple's guide to metadata](https://developer.apple.com/app-store/product-page/)
   , [category outline](https://developer.apple.com/app-store/categories)
 
@@ -88,7 +90,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
         6. Support URL (so people that need help with application can contact us...)
               ESRGC.org or github repo ?
-              
+
         7. Since there is a login function we need to provide Apple with a test/demo account for review process (so they dont have to create an accout for the app... they are lazy)
               UserName: xxxxxx
               password: xxxxxx
@@ -138,6 +140,8 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
   - [ ] Feature image
 
   - [ ] Screenshots
+
+          should consider adding temporary events/data to map for screenshots
 
   - [ ] Description
 
