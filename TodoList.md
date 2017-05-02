@@ -72,17 +72,23 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
         1. Applications name
               UniteSalisbury
+
         2. Version number
               v1.1.9
+
         3. Primary (and an optional secondary) Category
               Primary Category: Social Networking
               Secondary Category: ??????
+
         4. Concise description
               ???????
+
         5. Keywords for search in app store (max 100 characters comma separated spaces count...)
               ex. (words,like,ones,that,searches,will,direct,to,Unite,Salisbury)
+
         6. Support URL (so people that need help with application can contact us...)
               ESRGC.org or github repo ?
+              
         7. Since there is a login function we need to provide Apple with a test/demo account for review process (so they dont have to create an accout for the app... they are lazy)
               UserName: xxxxxx
               password: xxxxxx
@@ -94,7 +100,9 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
         If asked why the oxford server is not setup for https when apple is reviewing application will need to explain.
 
-- [x] Price & Availability  $0
+- [ ] Price & Availability
+
+        $?
 
 - [ ] Metadata
 
@@ -112,6 +120,8 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 [Android deployment checklist](https://developer.android.com/distribute/best-practices/launch/launch-checklist.html)
 
 #### Prerequisites
+- [ ] Valid Google Play Store developer account
+
 - [x] Build a release-ready APK
 
   - [x] Need to update target URL from whatsup to uniteSalisbury
