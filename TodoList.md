@@ -91,7 +91,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         6. Support URL (so people that need help with application can contact us...)
               ESRGC.org or github repo ?
 
-        7. Since there is a login function we need to provide Apple with a test/demo account for review process (so they dont have to create an accout for the app... they are lazy)
+        7. Since there is a login function we need to provide Apple with a test/demo account for review process (so they dont have to create an account for the app... they are lazy)
               UserName: xxxxxx
               password: xxxxxx
 
