@@ -18,9 +18,15 @@
  */
 // ---------------------------------------------------------
 // set target for phonegap app
-var site = 'http://apps.esrgc.org/uniteSalisbury';
+var url = 'http://apps.esrgc.org/uniteSalisbury';
 // ---------------------------------------------------------
-
+// set target for in app browser
+var target = "_blank";
+// set options for in app browser
+var options = {
+  "location": "no",
+  "toolbar": "no"
+};
 
 var app = {
     // Application Constructor
@@ -35,7 +41,7 @@ var app = {
     onDeviceReady: function() {
         window.open = cordova.InAppBrowser.open;
         this.receivedEvent('deviceready');
-        var ref = window.open(site, '_blank', 'location=no');
+        var ref = window.open(url, target, options);
         ref.addEventListener('loadstart', function() { console.log('start: ' + event.url); });
         ref.addEventListener('loadstop', function() { console.log('stop: ' + event.url); });
         ref.addEventListener('exit', function() { console.log(event.type); });
