@@ -46,6 +46,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
 
 #### Assets
+
 - [x] Icons
 
     `Note: may include alpha channel should not have transparent portion`
@@ -70,7 +71,9 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         should consider adding temporary events/data to map for screenshots
 
 - [ ] Metadata [apple's guide to metadata](https://developer.apple.com/app-store/product-page/)
-  , [category outline](https://developer.apple.com/app-store/categories)
+  , [category outline](https://developer.apple.com/app-store/categories), [viewing and changing metadata](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/ChangingAppMetadata.html#//apple_ref/doc/uid/TP40011225-CH3-SW1)
+
+  `Once app status is set to Ready for Sale certain metadata and assets are no longer editable without resubmitting the application`
 
         1. Applications name
               UniteSalisbury
@@ -97,6 +100,26 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
 #### Submission [submit app to app review](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SubmittingTheApp.html)
 - [ ] Basic Info
+
+  - [ ] Verify App properties prior to submitting for review
+
+      - [ ] App Store text and images
+      - [ ] Categories
+      - [ ] Keywords
+      - [ ] Rating
+      - [ ] Optional app previews
+
+      `validate the following properties that will cause app rejection if iTunes Connect information doesn't match`
+      - [ ] Bundle ID
+      - [ ] Version Number (the app store version number)
+      - [ ] App Sandbox information
+
+  - [ ] Final questions pre-submit
+
+      - [ ] Minimum OS Version supported
+      - [ ] Export Compliance
+      - [ ] Content Rights
+      - [ ] Advertising Identifier (IDFA)
 
   - [ ] Explain ATS exceptions
 
