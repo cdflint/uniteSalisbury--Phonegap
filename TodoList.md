@@ -115,24 +115,24 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
       `validate the following properties that will cause app rejection if iTunes Connect information doesn't match`
 
-      - [ ] Bundle ID
+      - [x] Bundle ID
 
-      - [ ] Version Number (the app store version number)
+      - [x] Version Number (the app store version number)
 
       - [ ] App Sandbox information
 
 
   - [ ] Final questions pre-submit
 
-      - [ ] Minimum OS Version supported
+      - [x] Minimum OS Version supported
 
       iOS 8
 
-      - [ ] Export Compliance
+      - [x] Export Compliance `contains no encryption regulated by the U.S. BIS`
 
       - [ ] Content Rights
 
-      - [ ] Advertising Identifier (IDFA)
+      - [x] Advertising Identifier (IDFA) `no ADs`
 
   - [ ] Explain ATS exceptions
 
@@ -144,7 +144,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
 - [ ] Metadata
 
-- [ ] Ready to Upload Binary
+- [x] Ready to Upload Binary
 
 #### Upload to the Store
 - [x] must use an apple device to create the archive for upload
