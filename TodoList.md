@@ -158,7 +158,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 [Android deployment checklist](https://developer.android.com/distribute/best-practices/launch/launch-checklist.html)
 
 #### Prerequisites
-- [ ] Valid Google Play Store developer account [android developer](https://play.google.com/apps/publish/signup/)
+- [x] Valid Google Play Store developer account [android developer](https://play.google.com/apps/publish/signup/)
 
 - [x] Build a release-ready APK
 
@@ -184,19 +184,19 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
   - [ ] Keywords
 
 #### Submission
-- [ ] Upload APK to the alpha or beta channel
+- [x] Upload APK to the alpha or beta channel
 
 - [ ] Define app's compatibility
 
 - [ ] Check pre-launch reports
 
-- [ ] Setup app's price and countries of distribution
+- [x] Setup app's price and countries of distribution
 
 - [ ] Opt-in to the right distribution options
 
         ie Android Wear and TV
 
 #### Production
-- [ ] Determine app's content rating
+- [x] Determine app's content rating
 
 - [ ] Final checks and publishing
