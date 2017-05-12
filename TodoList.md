@@ -20,11 +20,11 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 #### Prerequisites
 - [x] AppID
 
-- [ ] Distribution Certificate
+- [x] Distribution Certificate
 
     - [x] Development Certificate
 
-    - [ ] Production Certificate
+    - [x] Production Certificate
 
 - [x] Provisioning Profile for development
 
@@ -78,8 +78,8 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         1. Applications name
               UniteSalisbury
 
-        2. Version number
-              v1.1.9
+        2. Version/(build) number
+              v1.1 (9)
 
         3. Primary (and an optional secondary) Category
               Primary Category: Social Networking
@@ -104,37 +104,50 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
   - [ ] Verify App properties prior to submitting for review
 
       - [ ] App Store text and images
+
       - [ ] Categories
+
       - [ ] Keywords
+
       - [ ] Rating
+
       - [ ] Optional app previews
 
       `validate the following properties that will cause app rejection if iTunes Connect information doesn't match`
+
       - [ ] Bundle ID
+
       - [ ] Version Number (the app store version number)
+
       - [ ] App Sandbox information
+
 
   - [ ] Final questions pre-submit
 
       - [ ] Minimum OS Version supported
+
+      iOS 8
+
       - [ ] Export Compliance
+
       - [ ] Content Rights
+
       - [ ] Advertising Identifier (IDFA)
 
   - [ ] Explain ATS exceptions
 
         If asked why the oxford server is not setup for https when apple is reviewing application will need to explain.
 
-- [ ] Price & Availability
+- [x] Price & Availability
 
-        $?
+        $Free and default
 
 - [ ] Metadata
 
 - [ ] Ready to Upload Binary
 
 #### Upload to the Store
-- [ ] must use an apple device to create the archive for upload
+- [x] must use an apple device to create the archive for upload
 
 #### Wait...
 - [ ] Waiting for review process to complete
@@ -145,7 +158,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 [Android deployment checklist](https://developer.android.com/distribute/best-practices/launch/launch-checklist.html)
 
 #### Prerequisites
-- [ ] Valid Google Play Store developer account
+- [ ] Valid Google Play Store developer account [android developer](https://play.google.com/apps/publish/signup/)
 
 - [x] Build a release-ready APK
 
