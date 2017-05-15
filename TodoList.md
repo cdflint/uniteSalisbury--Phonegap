@@ -175,9 +175,13 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
   - [x] Feature image
 
-  - [x] Screenshots
+  - [ ] Screenshots
 
           should consider adding temporary events/data to map for screenshots
+
+          screenshots for tablet
+            7-inch
+            10-inch
 
   - [x] Description
 
