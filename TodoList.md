@@ -173,20 +173,22 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
   - [x] Icon
 
-  - [ ] Feature image
+  - [x] Feature image
 
-  - [ ] Screenshots
+  - [x] Screenshots
 
           should consider adding temporary events/data to map for screenshots
 
-  - [ ] Description
+  - [x] Description
+
+          See what's going on around Salisbury! To view events near you, head to the map section.  If you are hosting an event, login to use the event management dashboard.
 
   - [ ] Keywords
 
 #### Submission
 - [x] Upload APK to the alpha or beta channel
 
-- [ ] Define app's compatibility
+- [x] Define app's compatibility
 
 - [ ] Check pre-launch reports
 
