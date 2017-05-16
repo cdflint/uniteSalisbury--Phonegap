@@ -183,9 +183,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
             7-inch
             10-inch
 
-  - [x] Description
-
-          See what's going on around Salisbury! To view events near you, head to the map section.  If you are hosting an event, login to use the event management dashboard.
+  - [ ] Description
 
   - [ ] Keywords
 
