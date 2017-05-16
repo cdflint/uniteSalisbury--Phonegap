@@ -89,10 +89,10 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
               ???????
 
         5. Keywords for search in app store (max 100 characters comma separated spaces count...)
-              ex. (words,like,ones,that,searches,will,direct,to,Unite,Salisbury)
+              Salisbury,event,event hosting,Salisbury MD,whatsup,unitesalisbury,unite salisbury
 
         6. Support URL (so people that need help with application can contact us...)
-              ESRGC.org or github repo ?
+              ESRGC.org
 
         7. Since there is a login function we need to provide Apple with a test/demo account for review process (so they dont have to create an account for the app... they are lazy)
               UserName: xxxxxx
