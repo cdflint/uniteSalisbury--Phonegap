@@ -20,14 +20,19 @@
 // set target for phonegap app
 var site = 'http://apps.esrgc.org/uniteSalisbury';
 // ---------------------------------------------------------
-
+// set target for in app browser
+var target = "_blank";
+// set options for in app browser
+var options = {
+  "location": "no",
+  "toolbar": "no"
+};
 
 var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
-
     // deviceready Event Handler
     //
     // Bind any cordova events here. Common events are:
@@ -35,7 +40,7 @@ var app = {
     onDeviceReady: function() {
         window.open = cordova.InAppBrowser.open;
         this.receivedEvent('deviceready');
-        var ref = window.open(site, '_self', 'location=no');
+        var ref = window.open(site, '_self', options);
         ref.addEventListener('loadstart', function() { console.log('start: ' + event.url); });
         ref.addEventListener('loadstop', function() { console.log('stop: ' + event.url); });
         ref.addEventListener('exit', function() { console.log(event.type); });
