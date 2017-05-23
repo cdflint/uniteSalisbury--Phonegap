@@ -64,12 +64,12 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
             Search Icon: 29px x 29px & 58px x 58px
             Settings Appkication: 50px x 50px & 100px x 100px
 
-- [ ] Screenshots
+- [x] Screenshots
 
     Minimum 1 Max 5
     Separate screenshots for
 
-    - [ ] iPhone/iPod Touch
+    - [x] iPhone/iPod Touch
     - [x] iPad/iPad mini
 
         These screenshots will be used in the app store
@@ -148,7 +148,7 @@ Double check info prior to app Submission
 
   - [ ] Explain ATS exceptions
 
-        If asked why the oxford server is not setup for https when apple is reviewing application will need to explain.
+        If asked why the oxford server is not setup for https when apple is reviewing application will need to explain.  
 
 - [x] Price & Availability
 
