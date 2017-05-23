@@ -1,6 +1,10 @@
 # [Android icon generator](https://romannurik.github.io/AndroidAssetStudio/)
 
-To change the icons for android replace or modify the images in `/assets/res/android/*` with the coresponding icon based on size
+To change the icons for android replace or modify the images in
+
+`/assets/res/android/*`
+
+with the coresponding icon based on size.
 
         ldpi    : 36x36 px
         mdpi    : 48x48 px
@@ -9,7 +13,9 @@ To change the icons for android replace or modify the images in `/assets/res/and
         xxhdpi  : 144x144 px
         xxxhdpi : 192x192 px
 
-For background images when application is loading replace or modify images in `/platforms/android/res/drawable-*`
+For background images when application is loading replace or modify images in
+
+`/platforms/android/res/drawable-*`
 
 `Note: ` there are many **land** and **port** folders denoting background image for landscape and portrait respectfully.  Change as needed.
 
@@ -17,7 +23,9 @@ For background images when application is loading replace or modify images in `/
 
 # [iOS and Android icon generator](https://makeappicon.com/)
 
-Apple icon for in app launch `/assets/res/ios/AppIcon.appiconset/*`
+Apple icon for in app launch
+
+`/assets/res/ios/AppIcon.appiconset/*`
 
         Icon-App-60x60@3x.png       :    width="180" height="180"
         Icon-App-60x60@1x.png       :    width="60" height="60"
@@ -39,7 +47,9 @@ Apple icon for in app launch `/assets/res/ios/AppIcon.appiconset/*`
         Icon-App-57x57@1x.png       :    width="57" height="57"
         Icon-App-57x57@2x.png       :    width="114" height="114"
 
-For background images when application is loading replace or modify images in `/platforms/ios/UniteSalisbury/Image.xcassets/LaunchImage.LaunchImage`
+For background images when application is loading replace or modify images in
+
+`/platforms/ios/UniteSalisbury/Image.xcassets/LaunchImage.LaunchImage`
 
 `Note: ` there are several images of various dimensions replace or edit as needed.
 
