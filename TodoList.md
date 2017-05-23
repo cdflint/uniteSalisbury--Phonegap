@@ -85,14 +85,17 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
               UniteSalisbury
 
         2. Version/(build) number
-              v1.1 (11)
+              v1.1 (12)
 
         3. Primary (and an optional secondary) Category
               Primary Category: Social Networking
               Secondary Category: ??????
 
         4. Concise description
-              Unite Salisbury is a simple way to find and manage events in the Salisbury Maryland area.  The application features a map view and calendar view, allowing users multiple ways to find events happening near them and on specific days and times.  Event hosts can easily create, edit, and manage events.
+              Unite Salisbury is a simple way to find and manage events in the Salisbury Maryland
+              area.  The application features a map view and calendar view, allowing users
+              multiple ways to find events happening near them and on specific days and times.  
+              Event hosts can easily create, edit, and manage events.
 
         5. Keywords for search in app store (max 100 characters comma separated spaces count...)
               Salisbury,event,event hosting,Salisbury MD,whatsup,unitesalisbury,unite salisbury
@@ -104,7 +107,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
               UserName: xxxxxx
               password: xxxxxx
 
-#### Submission [submit app to app review](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SubmittingTheApp.html)
+#### Submission [submit app to app review](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SubmittingTheApp.html) [iTunes Connect](https://itunesconnect.apple.com)
 
 Double check info prior to app Submission
 
@@ -194,9 +197,11 @@ Double check info prior to app Submission
 
   - [ ] Description
 
+          See iPhone - Description
+
   - [ ] Keywords
 
-#### Submission
+#### Submission [Google Play Console](https://play.google.com/apps/publish)
 - [x] Upload APK to the alpha or beta channel
 
 - [x] Define app's compatibility
