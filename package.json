@@ -1,6 +1,6 @@
 {
   "name": "unitesalisbury",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "--- first time only ```npm install -g cordova``` or ```sudo npm install -g cordova``` #### Setup process from CLI {} = optional args",
   "main": "index.js",
   "dependencies": {

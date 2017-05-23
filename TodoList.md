@@ -34,6 +34,8 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
         and allow those devices to be added to the development
         Provisioning Profile for production
 
+        Beta testing in Test flight
+
 - [x] Provisioning Profile for production/distribution
 
 - [x] Build Settings
@@ -130,7 +132,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
       - [x] Export Compliance `contains no encryption regulated by the U.S. BIS`
 
-      - [ ] Content Rights
+      - [x] Content Rights
 
       - [x] Advertising Identifier (IDFA) `no ADs`
 

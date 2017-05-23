@@ -25,7 +25,7 @@ var target = "_blank";
 // set options for in app browser
 var options = {
   "location": "no",
-  "toolbar": "no"
+  // "toolbar": "no"
 };
 
 var app = {
