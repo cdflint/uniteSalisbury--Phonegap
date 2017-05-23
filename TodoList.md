@@ -28,7 +28,7 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
 - [x] Provisioning Profile for development
 
-- [ ] Test devices
+- [x] Test devices
 
         Need to connect to the Mac via USB
         and allow those devices to be added to the development
@@ -66,8 +66,12 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
 
 - [ ] Screenshots
 
-        Minimum 1 Max 5
-        Separate screenshots for iPhone/iPod Touch & iPad/iPad mini
+    Minimum 1 Max 5
+    Separate screenshots for
+
+    - [ ] iPhone/iPod Touch
+    - [x] iPad/iPad mini
+
         These screenshots will be used in the app store
 
         should consider adding temporary events/data to map for screenshots
@@ -101,6 +105,9 @@ tar --exclude='node_modules/*' --exclude='*.tar.bz2' -cvjf backup-vX.X.X.tar.bz2
               password: xxxxxx
 
 #### Submission [submit app to app review](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SubmittingTheApp.html)
+
+Double check info prior to app Submission
+
 - [ ] Basic Info
 
   - [ ] Verify App properties prior to submitting for review
